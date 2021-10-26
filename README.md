@@ -21,3 +21,21 @@ The data contains the following information:
 - not_eat: should not eat
 - check: check method
 - drug_detail: the details of drug
+The objective of the question answering system based on the rules matching completely achieved, through the key words matching, intention of question classification, medical problem belongs to the closed domain class scene, exhaustive and classification, the problems of the field and then use of cypher match to match to find secondary, according to the data returned by the template assembly question answer, finally to return the result.
+
+## Technique
+- Building knowledge graph based on py2Neo and Neo4j.
+- Lent based on feature word intent recognition;
+- Confer based problem resolution on CYPher.
+- Knowledge retrieval based on Neo4j;
+- Automatically generates text based on templates
+
+## Env
+- CentOs；
+- neo4j
+- Pycharm
+- Python3.6
+- tqdm
+- py2neo
+- ahocorasick
+
